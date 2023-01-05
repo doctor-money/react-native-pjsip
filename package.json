@@ -1,38 +1,38 @@
 {
   "_args": [
     [
-      "react-native-pjsip@git+https://github.com/datso/react-native-pjsip.git",
+      "react-native-pjsip@git+https://github.com/cu0ngnv/react-native-pjsip.git",
       "/Users/nguyendong/Work/vPhone"
     ]
   ],
-  "_from": "react-native-pjsip@git+https://github.com/datso/react-native-pjsip.git",
-  "_id": "react-native-pjsip@git+ssh://git@github.com/datso/react-native-pjsip.git#4abd7c34fa8492bd1e2caaac25416ed5e83ce7b5",
+  "_from": "react-native-pjsip@git+https://github.com/cu0ngnv/react-native-pjsip.git",
+  "_id": "react-native-pjsip@git+ssh://git@github.com/cu0ngnv/react-native-pjsip.git",
   "_inBundle": false,
   "_integrity": "",
   "_location": "/react-native-pjsip",
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "react-native-pjsip@git+https://github.com/datso/react-native-pjsip.git",
+    "raw": "react-native-pjsip@git+https://github.com/cu0ngnv/react-native-pjsip.git",
     "name": "react-native-pjsip",
     "escapedName": "react-native-pjsip",
-    "rawSpec": "git+https://github.com/datso/react-native-pjsip.git",
-    "saveSpec": "git+https://github.com/datso/react-native-pjsip.git",
-    "fetchSpec": "https://github.com/datso/react-native-pjsip.git",
+    "rawSpec": "git+https://github.com/cu0ngnv/react-native-pjsip.git",
+    "saveSpec": "git+https://github.com/cu0ngnv/react-native-pjsip.git",
+    "fetchSpec": "https://github.com/cu0ngnv/react-native-pjsip.git",
     "gitCommittish": null
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "git+ssh://git@github.com/datso/react-native-pjsip.git#4abd7c34fa8492bd1e2caaac25416ed5e83ce7b5",
-  "_spec": "git+https://github.com/datso/react-native-pjsip.git",
+  "_resolved": "git+ssh://git@github.com/cu0ngnv/react-native-pjsip.git",
+  "_spec": "git+https://github.com/cu0ngnv/react-native-pjsip.git",
   "_where": "/Users/nguyendong/Work/vPhone",
   "author": {
     "name": "Vadim Ruban",
     "email": "vadim.ruban@carusto.com"
   },
   "bugs": {
-    "url": "https://github.com/datso/react-native-pjsip/issues"
+    "url": "https://github.com/cu0ngnv/react-native-pjsip/issues"
   },
   "dependencies": {
     "events": "1.1.0"
@@ -50,7 +50,7 @@
     "jsdoc": "^3.5.5",
     "minami": "^1.2.3"
   },
-  "homepage": "https://github.com/datso/react-native-pjsip",
+  "homepage": "https://github.com/cu0ngnv/react-native-pjsip",
   "keywords": [
     "react-component",
     "react-native",
@@ -68,7 +68,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/datso/react-native-pjsip.git"
+    "url": "git+https://github.com/cu0ngnv/react-native-pjsip.git"
   },
   "scripts": {
     "generate-docs": "jsdoc --configure .jsdoc.json --verbose",
