@@ -1,0 +1,79 @@
+{
+  "_args": [
+    [
+      "react-native-pjsip@git+https://github.com/datso/react-native-pjsip.git",
+      "/Users/nguyendong/Work/vPhone"
+    ]
+  ],
+  "_from": "react-native-pjsip@git+https://github.com/datso/react-native-pjsip.git",
+  "_id": "react-native-pjsip@git+ssh://git@github.com/datso/react-native-pjsip.git#4abd7c34fa8492bd1e2caaac25416ed5e83ce7b5",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-pjsip",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "react-native-pjsip@git+https://github.com/datso/react-native-pjsip.git",
+    "name": "react-native-pjsip",
+    "escapedName": "react-native-pjsip",
+    "rawSpec": "git+https://github.com/datso/react-native-pjsip.git",
+    "saveSpec": "git+https://github.com/datso/react-native-pjsip.git",
+    "fetchSpec": "https://github.com/datso/react-native-pjsip.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+ssh://git@github.com/datso/react-native-pjsip.git#4abd7c34fa8492bd1e2caaac25416ed5e83ce7b5",
+  "_spec": "git+https://github.com/datso/react-native-pjsip.git",
+  "_where": "/Users/nguyendong/Work/vPhone",
+  "author": {
+    "name": "Vadim Ruban",
+    "email": "vadim.ruban@carusto.com"
+  },
+  "bugs": {
+    "url": "https://github.com/datso/react-native-pjsip/issues"
+  },
+  "dependencies": {
+    "events": "1.1.0"
+  },
+  "description": "PJSIP module for React Native",
+  "devDependencies": {
+    "babel-eslint": "^10.0.0",
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-native": "^3.3.0",
+    "gh-pages": "^2.0.0",
+    "jsdoc": "^3.5.5",
+    "minami": "^1.2.3"
+  },
+  "homepage": "https://github.com/datso/react-native-pjsip",
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "android",
+    "pjsip",
+    "sip"
+  ],
+  "license": "GPL-3.0",
+  "name": "react-native-pjsip",
+  "nativePackage": true,
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react-native": ">=0.40.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datso/react-native-pjsip.git"
+  },
+  "scripts": {
+    "generate-docs": "jsdoc --configure .jsdoc.json --verbose",
+    "lint": "eslint ./src",
+    "postinstall": "bash libs.sh"
+  },
+  "version": "2.8.0"
+}

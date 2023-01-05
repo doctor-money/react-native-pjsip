@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/nguyendong/Work/vPhone/node_modules/react-native-pjsip/android/build/intermediates/res/merged/release/raw/ringback.wav",
+        "source": "/Users/nguyendong/Work/vPhone/node_modules/react-native-pjsip/android/src/main/res/raw/ringback.wav"
+    },
+    {
+        "merged": "/Users/nguyendong/Work/vPhone/node_modules/react-native-pjsip/android/build/intermediates/res/merged/release/raw/ring.wav",
+        "source": "/Users/nguyendong/Work/vPhone/node_modules/react-native-pjsip/android/src/main/res/raw/ring.wav"
+    }
+]

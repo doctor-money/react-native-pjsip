@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/nguyendong/Work/vPhone/node_modules/react-native-pjsip/android/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v28/values-v28.xml",
+            "map": [
+                {
+                    "source": "/Users/nguyendong/.gradle/caches/transforms-2/files-2.1/20aef03ba3a303853919082e2b99fca9/appcompat-1.0.2/res/values-v28/values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,447",
+                        "endLines": "2,3,7,11",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,442,684"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/nguyendong/Work/vPhone/node_modules/react-native-pjsip/android/build/intermediates/res/merged/release/values-v28/values-v28.xml",
+            "map": [
+                {
+                    "source": "/Users/nguyendong/.gradle/caches/transforms-2/files-2.1/20aef03ba3a303853919082e2b99fca9/appcompat-1.0.2/res/values-v28/values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,447",
+                        "endLines": "2,3,7,11",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,442,684"
+                    }
+                }
+            ]
+        }
+    ]
+}
