@@ -9,7 +9,8 @@ export default class Message {
             fromUri,
             toUri,
             body,
-            contentType
+            contentType,
+            status
         }) {
         let fromNumber = null;
         let fromName = null;
@@ -28,7 +29,7 @@ export default class Message {
                 }
             }
         }
-
+        this._status = status;
         this._accountId = accountId;
         this._contactUri = contactUri;
         this._fromUri = fromUri;
@@ -46,7 +47,9 @@ export default class Message {
     getAccountId() {
         return this._accountId;
     }
-
+     getStatus() {
+        return this._status;
+    }
     /**
      * The Contact URI of the sender, if present.
      * @returns {String}

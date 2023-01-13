@@ -483,11 +483,20 @@ static void onMessageAccepted(pjsua_call_id call_id,
                  pjsip_tx_data *tdata,
                  pjsip_rx_data *rdata,
                  pjsua_acc_id acc_id) {
-        NSLog(@"onMessageReceived sendMessage Done");
+        NSString * _pjsip_status_code = @"OK";
+        if (status/100 == 2){
+            NSLog(@"onMessageReceived sendMessage Done");
+        }else{
+            _pjsip_status_code = @"ERROR";
+            NSLog(@"onMessageReceived sendMessage error");
+            
+        }
+        // NSString * _pjsip_status_code = [NSString stringWithFormat:@"%d", status/100];
         PjSipEndpoint* endpoint = [PjSipEndpoint instance];
         NSDictionary* data = [NSDictionary dictionaryWithObjectsAndKeys:
                           [NSNull null], @"test",
                           @(call_id), @"callId",
+                          _pjsip_status_code, @"status",
                           @(acc_id), @"accountId",
                           [PjSipUtil toString:to], @"toUri",
                           [PjSipUtil toString:body], @"body",
