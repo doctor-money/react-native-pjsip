@@ -7,11 +7,11 @@
  * Implements an equivalent of {@code HTMLVideoElement} i.e. Web's video
  * element.
  */
-@interface RTCVideoView : RCTView
+@interface RTCVideoViewSip : RCTView
 
 @end
 
-@implementation RTCVideoView {
+@implementation RTCVideoViewSip {
     
 }
 
@@ -27,14 +27,14 @@
 RCT_EXPORT_MODULE()
 
 -(UIView *)view {
-    return [[RTCVideoView alloc] init];
+    return [[RTCVideoViewSip alloc] init];
 }
 
 - (dispatch_queue_t)methodQueue {
   return dispatch_get_main_queue();
 }
 
-RCT_CUSTOM_VIEW_PROPERTY(windowId, NSNumber, RTCVideoView) {
+RCT_CUSTOM_VIEW_PROPERTY(windowId, NSNumber, RTCVideoViewSip) {
     // TODO: Remove this
 
     NSLog(@"RCT_CUSTOM_VIEW_PROPERTY");

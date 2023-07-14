@@ -151,7 +151,7 @@
         newValue.origin.y = 0;
         newValue.size.width = 0;
         newValue.size.height = 0;
-    } else if (true /*RTCVideoViewObjectFitCover == self.objectFit*/) { // cover
+    } else if (true /*RTCVideoViewSipObjectFitCover == self.objectFit*/) { // cover
         newValue = self.bounds;
         // Is there a real need to scale subview?
         if (newValue.size.width != width || newValue.size.height != height) {
