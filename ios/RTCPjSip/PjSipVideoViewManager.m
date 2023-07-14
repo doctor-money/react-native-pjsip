@@ -9,52 +9,11 @@
  */
 @interface RTCVideoView : RCTView
 
-// @property pjsua_vid_win_id vidWinId;
-
 @end
 
 @implementation RTCVideoView {
     
 }
-
-///**
-// * Initializes and returns a newly allocated view object with the specified
-// * frame rectangle.
-// *
-// * @param frame The frame rectangle for the view, measured in points.
-// */
-//- (instancetype)init {
-//    self = [super init];
-//
-//    UITextView* textView = [[UITextView alloc] initWithFrame:self.bounds];
-//    textView.text = @"Hi BRO!";
-//    textView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-//
-////    UIView* textView = [[UIView alloc] initWithFrame:self.bounds];
-////    textView.backgroundColor = [UIColor redColor];
-////    textView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-//    
-//    [self addSubview:textView];
-//    
-//    return self;
-//}
-
-//- (instancetype)init
-//{
-//    self = [super init];
-//    
-//    
-//    UITextView *myTextView = [[UITextView alloc] initWithFrame:asd];
-//    [self.view addSubview:myTextView];
-//    
-//    UITextView* textView = [[UITextView alloc] init];
-//    textView.text = @"Hi BRO!";
-//    
-//    [self addSubview:textView];
-//
-//    return self;
-//}
-
 
 @end
 
@@ -76,23 +35,6 @@ RCT_EXPORT_MODULE()
 }
 
 RCT_CUSTOM_VIEW_PROPERTY(windowId, NSNumber, RTCVideoView) {
-    
-//    NSLog(@"RCT_CUSTOM_VIEW_PROPERTY");
-//    
-//    UIView* textView = [[UIView alloc] initWithFrame:view.bounds];
-//    textView.backgroundColor = [UIColor redColor];
-//    textView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-//    
-//    [view addSubview:textView];
-//    
-//    
-//    __weak UIView *weakSelf = view;
-//    dispatch_async(dispatch_get_main_queue(), ^{
-//        UIView *strongSelf = weakSelf;
-//        [strongSelf setNeedsLayout];
-//    });
-    
-    
     // TODO: Remove this
 
     NSLog(@"RCT_CUSTOM_VIEW_PROPERTY");
@@ -135,66 +77,9 @@ RCT_CUSTOM_VIEW_PROPERTY(windowId, NSNumber, RTCVideoView) {
                 
                 
                 NSLog(@"Add video to view!!!");
-                
-                
-//                
-//                
-//                
-//                
-//                dispatch_async(dispatch_get_main_queue(), ^{
-//                    UIView *strongSelf = weakSelf;
-//                    
-//                    /* Add the video window as subview */
-//                    // [strongSelf addSubview:videoView];
-//                    
-////                    CGRect newFrame = videoView.frame;
-////                    newFrame.size.width = wi.size.w;
-////                    newFrame.size.height = wi.size.h;
-//                    
-////                    [videoView setFrame:newFrame];
-//                    
-//                    
-//                    UITextView* textView = [[UITextView alloc] initWithFrame:strongSelf.bounds];
-//                    textView.text = @"Hi BRO!";
-//                    textView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-//                    
-//                    [view addSubview:textView];
-//                    
-//                    NSLog(@"Add subview!!");
-//                    
-////                    if (!wi.is_native) {
-////                        /* Center it horizontally */
-////                        videoView.center = CGPointMake(parent.bounds.size.width/2.0,
-////                                                  videoView.bounds.size.height/2.0);
-////                    } else {
-////                        /* Preview window, move it to the bottom */
-////                        videoView.center = CGPointMake(parent.bounds.size.width/2.0,
-////                                                  parent.bounds.size.height-
-////                                                  videoView.bounds.size.height/2.0);
-////                    }
-//                    [strongSelf setNeedsLayout];
-//                });
             }
         }
     }
-    
-    
-    
-//    RTCVideoTrack *videoTrack;
-//    
-//    if (json) {
-//        NSString *streamId = (NSString *)json;
-//        
-//        WebRTCModule *module = [self.bridge moduleForName:@"WebRTCModule"];
-//        RTCMediaStream *stream = module.mediaStreams[streamId];
-//        NSArray *videoTracks = stream.videoTracks;
-//        
-//        videoTrack = videoTracks.count ? videoTracks[0] : nil;
-//    } else {
-//        videoTrack = nil;
-//    }
-//    
-//    view.videoTrack = videoTrack;
 }
 
 
